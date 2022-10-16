@@ -129,3 +129,4 @@ add()
 //var speed2 = readLine()!
 //speed1(speed2: String(speed2))
 //
+//1
