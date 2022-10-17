@@ -90,43 +90,44 @@ add()
 
 
 //первое Задание!!
-//class Car{
-//    var brend = String()
-//    var kozod = Double()
-//    var obem = Double()
-//    var ot0do100 = Int()
-//
-//    func tuu(){
-//        kozod += 1
-//        obem += 1
-//        ot0do100 -= 1
-//    }
-//
-//    init (brend:String,kozod:Double,obem:Double,ot0do100:Int){
-//        self.brend = brend
-//        self.kozod = kozod
-//        self.obem = obem
-//        self.ot0do100 = ot0do100
-//
-//    }
-//}
-//var car = Car(brend:"BWM",kozod: 26.9, obem: 5.6, ot0do100: 5)
-//car.tuu()
-//dump(car)
-//
-//
-//print("Также мы добавили в Твою тачку нитро От Компание Редбул чтобы только осторожнее он очень мощьный за 1 сек твоя скорость вырастет в 2 раза просто Напиши в консоле Nitro и кайфуй!")
-//var speed = "Nitro"
-//func speed1(speed2:String){
-//    for i in 120...220{
-//        if speed2 == "Nitro"{
-//            print(i)
-//        }else{
-//            print("Походу ты не умеешь пользоватся нитро прочитай что я тебя написал с верху и довай по новой!")
-//        }
-//    }
-//}
-//var speed2 = readLine()!
-//speed1(speed2: String(speed2))
-//
-//1
+class Car{
+    var brend = String()
+    var kozod = Double()
+    var obem = Double()
+    var ot0do100 = Int()
+
+    func tuu(){
+        kozod += 1
+        obem += 1
+        ot0do100 -= 1
+    }
+
+    init (brend:String,kozod:Double,obem:Double,ot0do100:Int){
+        self.brend = brend
+        self.kozod = kozod
+        self.obem = obem
+        self.ot0do100 = ot0do100
+
+    }
+}
+var car = Car(brend:"BWM",kozod: 26.9, obem: 5.6, ot0do100: 5)
+car.tuu()
+dump(car)
+
+
+print("Также мы добавили в Твою тачку нитро От Компание Редбул чтобы только осторожнее он очень мощьный за 1 сек твоя скорость вырастет в 2 раза просто Напиши в консоле Nitro и кайфуй!")
+var speed = "Nitro"
+func speed1(speed2:String){
+    for i in 120...220{
+        if speed2 == "Nitro"{
+            print(i)
+        }else{
+            print("Походу ты не умеешь пользоватся нитро прочитай что я тебя написал с верху и довай по новой!")
+        }
+    }
+}
+var speed2 = readLine()!
+speed1(speed2: String(speed2))
+
+
+в
